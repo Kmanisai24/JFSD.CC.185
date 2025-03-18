@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1e1e2f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background: #282c36;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+.clock {
+    font-size: 48px;
+    margin: 20px 0;
+}
+.alarm-section {
+    margin-top: 20px;
+}
+input, button {
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+}
+button:hover {
+    background-color: #45a049;
+}
+#stopAlarmBtn {
+    background-color: #f44336;
+}
+#stopAlarmBtn:hover {
+    background-color: #d32f2f;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock with Alarm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Digital Clock with Alarm</h1>
+        <div class="clock" id="clock"></div>
+        <div class="alarm-section">
+            <h2>Set Alarm</h2>
+            <input type="time" id="alarmTime">
+            <button id="setAlarmBtn">Set Alarm</button>
+            <button id="stopAlarmBtn">Stop Alarm</button>
+            <p id="alarmStatus"></p>
+        </div>
+    </div>
+    <audio id="alarmSound" src="https://www.soundjay.com/button/beep-07.wav" loop></audio>
+    <script src="script.js"></script>
+</body>
+
+</html>
